@@ -1,10 +1,9 @@
-import ThemeButton from "@/components/theme-button";
+import HeaderComponent from "@/components/header";
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello World</h1>
-      <ThemeButton />
+      <HeaderComponent />
     </main>
   );
 }
